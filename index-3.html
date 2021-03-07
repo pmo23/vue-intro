@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Vue</title>
+</head>
+<style>
+    [v-cloak] {
+        display: none;
+    }
+</style>
+<body>
+
+    <!-- class -->
+    <!-- <div id="app">
+        <div class="container">
+            <h1 class=title>Welcome to Vue</h1>
+            <p v-for="message in messages"
+                class="text"
+                :class="{ 'text-error': message.error }">
+            {{ message.text }}
+            </p>
+        </div>
+    </div> -->
+
+    <!-- style -->
+    <!-- <div id="app">
+        <div class="container pt-3">
+            <h1 class="h3 mb-4">Progress</h1>
+            <div class="progress">
+            <div class="progress-bar"
+                    role="progressbar"
+                    :style="{width: progress + '%'}"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- v-cloak -->
+    <div id="app" v-cloak>
+        <h1>{{ message }}</h1>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="/app-3.js"></script>
+</body>
+</html>
